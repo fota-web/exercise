@@ -23,5 +23,5 @@ status = ans.solve()
 # print(pulp.LpStatus[status])
 
 # show ans
-print(pulp.value(A),pulp.value(B),pulp.value(ans.objective))
+print("A :",pulp.value(A),"   B :",pulp.value(B),"   Min :",pulp.value(ans.objective))
 

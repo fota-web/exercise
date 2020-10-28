@@ -23,5 +23,5 @@ status = ans.solve()
 # print(pulp.LpStatus[status])
 
 # show ans
-print(pulp.value(A),pulp.value(B),pulp.value(ans.objective))
+print("Internet :",pulp.value(A),"   Print :",pulp.value(B),"   Max :",pulp.value(ans.objective))
 
